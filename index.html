@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="keywords" content="miencraft, cheats, mods, Tuto, ">
+    <meta name="description" content="Ce site répairtories des cheats miencraft toutes versions analisé par de multiple antivirus Afin de les télécharger en toute sécurité">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EzFarm</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img-logo/lo.png" width="200px" height="120px"></a>
+        <nav class="tete">
+            <button onclick="window.location.href='tuto.html'" class="t">Tuto d installation</button>
+            
+            <button onclick="window.location.href='securite.html'" class="t">Sécurité</button>
+            
+        </nav>
+    </header>
+    <main>
+        <section class="p">
+            <h1>Mods & cheats sécurisé</h1>
+            <div class="p-c">
+            <p>
+                <strong>EzFarm</strong> répertorie une grandes liste de <strong>cheats & mods</strong> sur minecraft pouvant vous donner un avantange, <br>
+                que ce soit en <strong>Farm</strong>, <strong>PvP</strong>, ou meme <strong>build</strong>. De plus nous vous garantissons des mods <strong>sans virus</strong> 
+                <a href="securite.html" class="propos">en savoir plus</a>.<br> Afin de jouer a minecraft en toute sérénité
+            </p>
+            
+            </div>
+        </section>
+        <section>
+            <h2>Catégories des cheats/mods</h2>
+            <div class="container">
+                <nav class="nav-mod">
+                    <input type="text" id="sb" placeholder="rechercher ici" class="npc">
+                    <select name="Catégories" id="catego" onchange="filtre()" class="npc">
+                        <option value="all">Toutes Catégories</option>
+                        <option value="bluid">Build</option>
+                        <option value="pvp">PvP</option>
+                        <option value="farm">Farm</option>
+                    </select>
+                    <select name="forme" id="type" onchange="src()" class="npc">
+                        <option value="0">Toutes forme</option>
+                        <option value="1">Forge</option>
+                        <option value="2">Fabric</option>
+                    </select>
+                </nav>
+                <div class="contenue">
+                   <div class="box" id="litematica">
+                        <div class="top">
+                            <a href="installFabric.html" title="Ce mod utilise Fabric"><img src="img-logo/fabric.png" alt="logo de fabric lite modloader minecraft" width="30px" height="30px"></a>
+                            <h3 >Litematica [1.19.3-1.13.2]</h3>
+                            <img src="img-logo/brique.png" alt="block brique minecraft rouge classique" width="30px" height="30px" title='Ce mods est classé "Build"'>
+                        </div>
+                        <div class="mid">
+                            <p class="dsc">litematica est une variante de shématica, pour recopier des construction ou les crée, un outils indispensable</p>
+                        </div>
+                        <button onclick="window.location.href='litematica.html'" class="btn"><img src="img-logo/tele.svg" alt="logo Téléchargements" width="25px" height="25px"> Téléchargements / fiche technique </button>
+                        <div id="litematicaa" class="none">litematica</div>
+                        <div id="li" class="none">bluid</div>
+                        <div id="lit" class="none">2</div>
+                    </div>
+
+                   <div class="box" id="shematica">
+                    <div class="top">
+                        <a href="" title="Ce mod utilise Forge"><img src="img-logo/forge.png" alt="logo forge qui est un modloader minecraft" width="30px" height="30px"></a>
+                        <h3>Shématica [1.12.2-1.7.10]</h3>
+                        <img src="img-logo/brique.png" alt="block brique minecraft rouge classique" width="30px" height="30px"  title='Ce mods est classé "Build"'>
+                    </div>  
+                    <div calss="mid">
+                        <p class="dsc">Shématica est un mod qui permet de copier des structures d un monde a l'autre et bien plus !</p>
+                    </div>
+                    <button onclick="window.location.href='shematica.html'" class="btn"><img src="img-logo/tele.svg" alt="logo Téléchargements" width="25px" height="25px"> Téléchargements / fiche technique </button>
+                        <div id="shematicaa" class="none">shematica</div>
+                        <div id="sh" class="none">bluid</div>
+                        <div id="she" class="none">1</div>
+                   </div>
+                   
+                
+                    <div class="box" id="meteor">
+                        <div class="top">
+                            <a href="installFabric.html" title="Ce mod utilise Fabric"><img src="img-logo/fabric.png" alt="logo de fabric lite modloader minecraft" width="30px" height="30px"></a>
+                            <h3>Meteor [1.19.3-x]</h3>
+                            <div>
+                                <img src="img-logo/farm.png" alt="image de blé minecraft" width="30px" height="30px" title='Ce mod est classé "Farm"'>
+                                <img src="img-logo/epee.png" alt="image d une épée minecraft en diamant" width="30px" height="30px" title='Ce mod est classé "PvP"'>
+                            </div>
+                        </div>
+                        <div class="mid">
+                            <p class="dsc">meteor est un client qui est constituer de pleins de cheats, il est orienté pvp mais aussi farm</p>
+                        </div>
+                        <div>
+                            <button onclick="window.location.href='meteor.html'" class="btn"><img src="img-logo/tele.svg" alt="logo Téléchargements" width="25px" height="25px"> Téléchargements / fiche technique </button>
+                        <div id="meteorr" class="none">meteor client</div>
+                        <div id="me" class="none">g</div>
+                        <div id="met" class="none">2</div>
+                        </div>
+                    </div>
+
+                    <div class="box" id="wurst">
+                        <div class="top">
+                            <a href="" title="Ce mod utilise Fabric"><img src="img-logo/fabric.png" alt="logo Fabric qui est un modloader minecraft" width="30px" height="30px"></a>
+                            <h3>Wrust [1.19.3-1.7.2]</h3>
+                            <div>
+                                <img src="img-logo/farm.png" alt="image de blé minecraft" width="30px" height="30px" title='Ce mod est classé "Farm"'>
+                                <img src="img-logo/epee.png" alt="image d une épée minecraft en diamant" width="30px" height="30px" title='Ce mod est classé "PvP"'>
+                            </div>
+                        </div>
+                        <div class="mid">
+                            <p class="dsc">wrust est un client qui est constituer de pleins de cheats, il est orienté pvp mais aussi farm</p>
+                        </div>
+                        <div>
+                            <button onclick="window.location.href='wurst.html'" class="btn"><img src="img-logo/tele.svg" alt="logo Téléchargements" width="25px" height="25px"> Téléchargements / fiche technique </button>
+                        <div id="wurstt" class="none">wurst</div>
+                        <div id="wu" class="none">g</div>
+                        <div id="wur" class="none">2</div>
+                        </div>    
+                    </div>
+                
+                    <div class="box" id="xray">
+                        <div class="top">
+                            <div>
+                                <a href="installFabric.html" title="Ce mod utilise Fabric"><img src="img-logo/fabric.png" alt="logo de fabric lite modloader minecraft" width="30px" height="30px"></a>
+                                <a href="" title="Ce mod utilise Forge"><img src="img-logo/forge.png" alt="logo forge qui est un modloader minecraft" width="30px" height="30px"></a>
+                            </div>
+                            <h3>X-ray [1.19.3-x]</h3>
+                            <img src="img-logo/farm.png" alt="image de blé minecraft" width="30px" height="30px" title='Ce mod est classé "farm"'>
+                        </div>
+                        <div class="mid">
+                            <p class="dsc">x-ray permet de voir à traver certain block a fin trouver les block chercher</p>
+                        </div>
+                        <div>
+                            <button onclick="window.location.href='xray.html'" class="btn"><img src="img-logo/tele.svg" alt="logo Téléchargements" width="25px" height="25px"> Téléchargements / fiche technique </button>
+                            <div id="xrayy" class="none">x ray</div>
+                            <div id="xr" class="none">farm</div>
+                            <div id="xra" class="none">0</div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="discord">
+            <a href="https://discord.gg/wcfJ6wW9"><img src="img-logo/dis.png" alt="logo discord" width="50" height="50"></a>
+            <a href="https://discord.gg/wcfJ6wW9">Rejoin notre discord</a>
+        </div>
+        <div class="faq">
+            <a href="faq.html" class="f">FAQ, qui nous sommes <br>
+            pourquoi ? ...</a>
+        </div>
+        <div class="secu">
+            <a href="securite.html">a-propos de notre sécurité</a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
